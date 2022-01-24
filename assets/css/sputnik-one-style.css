@@ -66,7 +66,7 @@ h1 {
 
     }
     .welcome-text-title {
-        font-size: 8em;
+        font-size: 10em;
         margin: auto;
         margin-top: 20vh;   
     }
@@ -74,6 +74,19 @@ h1 {
     .welcome-text-subtitle {
         color: lightgray;
         font-style: normal;
+        font-size: 5em;
+    }
+    .content {
+        width: 80%;
+        font-size: 1em;
+        align-self: center;
+        color: lightgray;
         font-size: 3em;
+    }
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 2em;
+        font-style: normal;
     }
 }
