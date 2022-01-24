@@ -3,6 +3,16 @@ body, html {
     color: white;
     place-items: center;
 }
+::-webkit-scrollbar {
+    width: 0.5vw;
+}
+::-webkit-scrollbar-track {
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(15, 15, 15);
+    border-radius: 15px;
+}
 
 .container {
     display: flex;
