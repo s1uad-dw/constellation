@@ -164,6 +164,9 @@ img {
         text-align: left;
         font-size: 6em;
     }
+    #welcome-text-subtitle{
+        padding-left: 7px;
+    }
     .plug{
         width: 322px;
     }
@@ -189,6 +192,9 @@ img {
         text-align: left;
         font-size: 5em;
     }
+    #welcome-text-subtitle{
+        padding-left: 5px;
+    }
     .plug{
         width: 322px;
     }
@@ -207,6 +213,9 @@ img {
     #welcome-text-title{
         text-align: left;
         font-size: 3em;
+    }
+    #welcome-text-subtitle{
+        padding-left: 2px;
     }
     .container {
         width: 300px;
