@@ -1,0 +1,75 @@
+body, html {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    border: solid olive;
+    flex-direction: column;
+    width: 1200px;
+    margin: auto;
+}
+/* WELCOME */
+.welcome {
+    height: 40vh;
+    width: 100%;
+    margin: auto;
+    border: solid green;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.welcome-photo {
+    height: 100%;
+    border-radius: 20%;
+}
+
+.welcome-text {
+    align-self: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.welcome-text-title {
+    font-size: 3em;
+}
+
+.welcome-text-subtitle {
+    color: lightgray;
+    font-style: normal;
+    font-size: 2em;
+}
+/* CONTENT */
+.content {
+    margin-top: 10vh;
+    width: 100%;
+    font-size: 1em;
+}
+
+/* ADAPTIVE */
+
+@media (max-width: 700px) {
+    .welcome {
+        flex-grow: 1;
+        height: 100%;
+    }
+    .welcome-photo {
+        margin: 0 auto;
+        width: 60%;
+        align-self: center;
+
+    }
+    .welcome-text-title {
+        font-size: 8em;
+        margin: auto;
+        margin-top: 20vh;   
+    }
+    
+    .welcome-text-subtitle {
+        color: lightgray;
+        font-style: normal;
+        font-size: 3em;
+    }
+}
