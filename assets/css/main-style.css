@@ -204,7 +204,7 @@ img {
     #welcome-text {
         position: relative;
         top: 20vh;
-        color: red;
+        color: white;
         padding-right: 30vw;
         max-width: 700px;
         margin: 0 auto;
@@ -235,7 +235,7 @@ img {
         font-size: 0.7em;
     }
     .plug {
-        width: 168px;
+        width: 170px;
     }
     .timeline-line {
         height: 1vh;
