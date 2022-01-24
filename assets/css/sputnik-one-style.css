@@ -1,11 +1,11 @@
 body, html {
     background-color: black;
     color: white;
+    place-items: center;
 }
 
 .container {
     display: flex;
-    border: solid olive;
     flex-direction: column;
     width: 1200px;
     margin: auto;
@@ -15,7 +15,6 @@ body, html {
     height: 40vh;
     width: 100%;
     margin: auto;
-    border: solid green;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
@@ -43,9 +42,14 @@ body, html {
 }
 /* CONTENT */
 .content {
-    margin-top: 10vh;
-    width: 100%;
+    width: 80%;
     font-size: 1em;
+    align-self: center;
+    color: lightgray;
+}
+h1 {
+    color: white;
+    text-align: center;
 }
 
 /* ADAPTIVE */
