@@ -1,1 +1,1 @@
-# constellation
+Для хостинга вёрстки использован сервис GitHub Pages
