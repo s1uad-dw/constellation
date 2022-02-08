@@ -56,6 +56,7 @@ body, html {
     font-size: 1em;
     align-self: center;
     color: lightgray;
+    text-align: justify;
 }
 h1 {
     color: white;
